@@ -1,0 +1,32 @@
+# filetypes to ignore
+*.py[cod]
+.DS_store
+*.swp
+
+# build files/directories to ignore
+/dist/
+/build/
+/.cache/
+/*.egg-info/
+/.eggs/
+__pycache__/
+/.coverage
+.pytest_cache/
+/coverage.xml
+/junit*.xml
+/htmlcov/
+/pelican/_version.py
+
+# documentation files to ignore
+/docs/_build/
+/docs/reference/
+
+# debian files to ignore
+/debian/.debhelper/
+/debian/*.debhelper.log
+/debian/*.postinst.debhelper
+/debian/*.prerm.debhelper
+/debian/*.substvars
+/debian/*pelican/
+/debian/files
+/.pybuild/
